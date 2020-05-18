@@ -1,0 +1,43 @@
+ 
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+ String[] data = lineText.split(",");
+String courseName = data[0];
+String studentName = data[1];
+String timestamp = data[2];
+String rating = data[3];
+
+
+
+
+
+while ((lineText = lineReader.readLine()) != null) {
+    
+}
+
+
+
+
+
+
+int batchSize = 20;
+statement.addBatch();
+ 
+if (count % batchSize == 0) {
+    statement.executeBatch();
+}
+
+
+
+
+ 
+
